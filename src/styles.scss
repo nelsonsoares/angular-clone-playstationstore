@@ -1,1 +1,14 @@
-/* You can add global styles to this file, and also import other style files */
+@import './variables.scss';
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: $dark-blue;
+  background: linear-gradient(90deg, $dark-blue, 0%, $medium-blue, 35%, $medium-blue 100%);
+  color: $white;
+}
